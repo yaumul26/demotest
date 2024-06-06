@@ -5,10 +5,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Start loading assets right away, to have them (partly) loaded already when they are requested -->
-  <link rel="preload" href="Build//c1871645eba459941c12e04fe0b0f120.data" as="fetch" type="application/octet-stream" crossorigin>
-  <link rel="preload" href="Build/4a972b66ce3e163217dded9b51400951.framework.js" as="script">
-  <link rel="preload" href="Build/71c94cd630080a663e38bace20c73d7b.wasm" as="fetch" type="application/wasm" crossorigin>
-  <title>ImageClassificationdemoSprite</title>
+  <link rel="preload" href="Build//094967717208d0a835623bf5a871027c.data" as="fetch" type="application/octet-stream" crossorigin>
+  <link rel="preload" href="Build/0bf6dedede0acf7e464635ba41770b33.js" as="script">
+  <link rel="preload" href="Build/eb0cc13be17996d796be065992b8f0be.wasm" as="fetch" type="application/wasm" crossorigin>
+  <title>Sprite</title>
   <style>
     * {
       padding: 0;
@@ -37,7 +37,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #fff;
+      background-color: #00CA53;
     }
 
     /* Default values, might be overwritten by aspect ratio media queries */
@@ -118,22 +118,22 @@
     <canvas id="unity-canvas"></canvas>
   </div>
   <div id="unity-loading-container">
-    <img src="logo.svg" class="logo" alt="Logo yaumuldev">
+    <img src="logo.svg" class="logo" alt="Logo ARnCO">
     <div id="unity-loading-bar">
       <div id="unity-loading-bar-inner"></div>
     </div>
   </div>
-  <script src="Build/407568585aeae1ddd27cc9bfbb9b974c.loader.js"></script>
+  <script src="Build/demotest.loader.js"></script>
   <script>
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/407568585aeae1ddd27cc9bfbb9b974c.loader.js";
+    var loaderUrl = buildUrl + "/demotest.loader.js";
     var config = {
-      dataUrl: buildUrl + "/c1871645eba459941c12e04fe0b0f120.data",
-      frameworkUrl: buildUrl + "/4a972b66ce3e163217dded9b51400951.framework.js",
-      codeUrl: buildUrl + "/71c94cd630080a663e38bace20c73d7b.wasm",
+      dataUrl: buildUrl + "/094967717208d0a835623bf5a871027c.data",
+      frameworkUrl: buildUrl + "/0bf6dedede0acf7e464635ba41770b33.js",
+      codeUrl: buildUrl + "/eb0cc13be17996d796be065992b8f0be.wasm",
       streamingAssetsUrl: "StreamingAssets",
-      companyName: "yaumuldev",
-      productName: "ImageClassificationdemoSprite",
+      companyName: "ARnCO",
+      productName: "Sprite",
       productVersion: "0.1",
     };
 

@@ -1,0 +1,3 @@
+bukan_botol_minuman
+botol_minuman_umum
+botol_sprite
